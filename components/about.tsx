@@ -19,30 +19,42 @@ export default function About() {
     >
       <SectionHeading>About me</SectionHeading>
       <p className="mb-3">
-        After graduating with a degree in{" "}
-        <span className="font-medium">Accounting</span>, I decided to pursue my
-        passion for programming. I enrolled in a coding bootcamp and learned{" "}
-        <span className="font-medium">full-stack web development</span>.{" "}
-        <span className="italic">My favorite part of programming</span> is the
-        problem-solving aspect. I <span className="underline">love</span> the
-        feeling of finally figuring out a solution to a problem. My core stack
-        is{" "}
-        <span className="font-medium">
-          React, Next.js, Node.js, and MongoDB
-        </span>
-        . I am also familiar with TypeScript and Prisma. I am always looking to
-        learn new technologies. I am currently looking for a{" "}
-        <span className="font-medium">full-time position</span> as a software
-        developer.
+        <span className="underline">With over 10 years of experience</span> in
+        the IT industry, I've embarked on a journey that began during my
+        university days, where I interned at numerous local companies.
+        Transitioning into my professional career, I've spent over 8 years
+        navigating the dynamic landscape of IT, particularly as{" "}
+        <span className="font-medium">a full stack engineer</span>. This journey
+        has been anything but straightforward; it's been marked by{" "}
+        <span className="italic">challenges</span>,{" "}
+        <span className="italic">complexities</span>, and moments of{" "}
+        <span className="italic">disappointment</span>. Yet, amidst the
+        difficulties, I've found{" "}
+        <span className="underline">immense value</span> and{" "}
+        <span className="underline">growth</span>. Along the way, I've been
+        fortunate to encounter exceptional mentors and colleagues whose
+        influence has shaped my professional development. From them, I've
+        gleaned not only their strengths but also their vulnerabilities,
+        incorporating these lessons into my own approach. Through these
+        experiences, <span className="font-medium">my confidence</span> has{" "}
+        <span className="font-medium">flourished</span>,{" "}
+        <span className="font-medium">bolstered</span> by a deepened
+        understanding of both technology and interpersonal dynamics. Colleagues
+        often commend me for my{" "}
+        <span className="font-medium">strong communication skills</span>,{" "}
+        <span className="font-medium">efficient problem-solving abilities</span>
+        , and <span className="font-medium">collaborative nature</span>. Yet, I
+        recognize that success is best achieved alongside humble and talented
+        individuals. Looking ahead, I'm eager to continue this journey,
+        embracing new technologies and forging meaningful relationships along
+        the way.
       </p>
 
       <p>
         <span className="italic">When I'm not coding</span>, I enjoy playing
-        video games, watching movies, and playing with my dog. I also enjoy{" "}
+        soccer, reading, and playing Fifa. I also enjoy{" "}
         <span className="font-medium">learning new things</span>. I am currently
-        learning about{" "}
-        <span className="font-medium">history and philosophy</span>. I'm also
-        learning how to play the guitar.
+        learning about <span className="font-medium">history and soccer</span>.
       </p>
     </motion.section>
   );

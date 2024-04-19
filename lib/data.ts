@@ -2,9 +2,12 @@ import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
 import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
-import corpcommentImg from "@/public/corpcomment.png";
-import rmtdevImg from "@/public/rmtdev.png";
-import wordanalyticsImg from "@/public/wordanalytics.png";
+import PatAppImg from "@/public/advinow.png";
+import CoreLibraryImg from "@/public/core.png";
+import DemandIQImg from "@/public/demandiq.png";
+import EpcFinderImg from "@/public/epcfinder.png";
+import DoctorAppImg from "@/public/moreMD.png";
+import SquiblerImg from "@/public/squibler.png";
 
 export const links = [
   {
@@ -35,52 +38,120 @@ export const links = [
 
 export const experiencesData = [
   {
-    title: "Graduated bootcamp",
-    location: "Miami, FL",
+    title: "Software Developer",
+    location: "Shanghai, China",
     description:
-      "I graduated after 6 months of studying. I immediately found a job as a front-end developer.",
+      "I graduated after 4 years of studying with bachelor's degree.",
     icon: React.createElement(LuGraduationCap),
-    date: "2019",
+    date: "2013",
   },
   {
-    title: "Front-End Developer",
-    location: "Orlando, FL",
+    title: "Software Developer ( Intern )",
+    location: "Beijing, China",
     description:
-      "I worked as a front-end developer for 2 years in 1 job and 1 year in another job. I also upskilled to the full stack.",
+      "I worked as a software developer ( intern ) for 1 year at this company. I also upskilled to the full stack.",
     icon: React.createElement(CgWorkAlt),
-    date: "2019 - 2021",
+    date: "2014 - 2015",
   },
   {
-    title: "Full-Stack Developer",
-    location: "Houston, TX",
+    title: "Full Stack Engineer ( Intern ) - Facebook",
+    location: "Beijing, China",
     description:
-      "I'm now a full-stack developer working as a freelancer. My stack includes React, Next.js, TypeScript, Tailwind, Prisma and MongoDB. I'm open to full-time opportunities.",
+      "I decided to join Facebook as a intern and i was a full-stack developer working as a freelancer. My stack included Node.js · Next.js · MongoDB · TypeScript · React.js · Socketio · PostgreSQL.",
+    icon: React.createElement(CgWorkAlt),
+    date: "2016 - 2016",
+  },
+  {
+    title: "Full Stack Engineer ( Contract ) - Thumbstack",
+    location: "Beijing, China",
+    description:
+      "I joined Thumbstack as a full stack engineer. and i was a strong contributor to this agile team. I developed the main module API related to the flight simulators with NodeJS and developed the route and area management dashboard using Vue.",
+    icon: React.createElement(CgWorkAlt),
+    date: "2016 - 2019",
+  },
+  {
+    title: "Full Stack Engineer ( Contract ) - WarnerMedia",
+    location: "Beijing, China",
+    description:
+      "The Global Sports Platform (GSP) is the core platform for WarnerMedia's digital sports products. I rebuilt GSP dashboard UI from Angular to React and developed components using Material UI.",
+    icon: React.createElement(CgWorkAlt),
+    date: "2019 - 2022",
+  },
+  {
+    title: "Full Stack Engineer - Demand IQ",
+    location: "Beijing, China",
+    description:
+      "First peak moment of my career. I enjoyed this moment. I was involved in development of Sass project for Solar industry.",
+    icon: React.createElement(CgWorkAlt),
+    date: "2019 - 2022",
+  },
+  {
+    title: "Senior Frontend Engineer - Advinow",
+    location: "Beijing, China",
+    description:
+      "Another peak moment of my career. I managed to resolve 200+ critical bugs in production. My collaboration and communication skill has been improved a lot in this period.",
+    icon: React.createElement(CgWorkAlt),
+    date: "2022 - 2024",
+  },
+  {
+    title: "Software Engineer - Open to New Opportunities",
+    location: "Beijing, China",
+    description:
+      "Currently, I'm open to new opportunities. I'm currently learning coding courses to improve my work quality.",
     icon: React.createElement(FaReact),
-    date: "2021 - present",
+    date: "2024 - present",
   },
 ] as const;
 
 export const projectsData = [
   {
-    title: "CorpComment",
+    title: "Advinow Patient Survey App",
     description:
-      "I worked as a full-stack developer on this startup project for 2 years. Users can give public feedback to companies.",
-    tags: ["React", "Next.js", "MongoDB", "Tailwind", "Prisma"],
-    imageUrl: corpcommentImg,
+      "I worked as a senior frontend engineer on this project for 2 years. Patients can go through medical survey session.",
+    tags: [
+      "React",
+      "Next.js",
+      "Redux",
+      "Ant Design",
+      "Mantine",
+      "React-pdf",
+      "Axios",
+    ],
+    imageUrl: PatAppImg,
   },
   {
-    title: "rmtDev",
+    title: "Advinow Doctor App",
     description:
-      "Job board for remote developer jobs. I was the front-end developer. It has features like filtering, sorting and pagination.",
-    tags: ["React", "TypeScript", "Next.js", "Tailwind", "Redux"],
-    imageUrl: rmtdevImg,
+      "Dashboard for patients registerd via Patient Survey App. Patient Survey Data is parsed and analyzed by AI and doctor can get advice for patients.",
+    tags: ["Angular", "TypeScript", "Bootstrap", "React"],
+    imageUrl: DoctorAppImg,
   },
   {
-    title: "Word Analytics",
+    title: "Advinow Core Library",
+    description: "Package of reusable components. They are built by React.js.",
+    tags: ["React", "Mantine", "Chakra UI", "Formik", "React-dnd"],
+    imageUrl: CoreLibraryImg,
+  },
+  {
+    title: "DemandIQ Stella",
     description:
-      "A public web app for quick analytics on text. It shows word count, character count and social media post limits.",
-    tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
-    imageUrl: wordanalyticsImg,
+      "Saas project for solar industry. Each business can setup their own survey app and it can be done in Portal APP. User can go through business's survey app to register the appointment to setup solar panels over their houses.",
+    tags: ["React", "Python", "Django", "PostgreSQL", "Twilio", "AWS"],
+    imageUrl: DemandIQImg,
+  },
+  {
+    title: "EPCFinder",
+    description:
+      "A web app to connect Solar Panel Installers to Solar Panel sellers. Each sides can get reviews, overviews from this webapp and can communicate via this webapp.",
+    tags: ["React", "Next.js", "Python", "Django"],
+    imageUrl: EpcFinderImg,
+  },
+  {
+    title: "Squibler IO",
+    description:
+      "A public web app for authors to write various type of stories.",
+    tags: ["Angular", "PostgreSQL", "Google Cloud Platform"],
+    imageUrl: SquiblerImg,
   },
 ] as const;
 
@@ -94,7 +165,6 @@ export const skillsData = [
   "Node.js",
   "Git",
   "Tailwind",
-  "Prisma",
   "MongoDB",
   "Redux",
   "GraphQL",
@@ -103,5 +173,16 @@ export const skillsData = [
   "PostgreSQL",
   "Python",
   "Django",
+  "Flask",
+  "Php",
+  "Laravel",
+  "Wordpress",
+  "Shopify",
+  "Magento",
+  "Docker",
+  "Terraform",
+  "AWS",
+  "GCP",
+  "Azure",
   "Framer Motion",
 ] as const;
